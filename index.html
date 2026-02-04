@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mexico Salvando al Jaguar | Dona hoy</title>
+    <meta
+      name="description"
+      content="Unete a miles de mexicanos protegiendo al jaguar. Tu donativo es 100% deducible y va directo a conservacion. Dona desde $100."
+    />
+    <meta property="og:title" content="Mexico Salvando al Jaguar | Dona hoy" />
+    <meta
+      property="og:description"
+      content="Unete a miles de mexicanos protegiendo al jaguar. Tu donativo es 100% deducible y va directo a conservacion. Dona desde $100."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:image" content="assets/images/og-image.jpg" />
+    <meta name="theme-color" content="#09110f" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/images/favicon-64.png" />
+    <link rel="preload" as="image" href="assets/images/hero-desktop.jpg" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="topbar" id="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="#top" aria-label="Ir al inicio">
+          <img id="brandLogo" src="assets/images/logo-oro.png" alt="Logo de la campana" width="46" height="46" />
+          <span id="orgNameHeader">Mexico Salvando al Jaguar</span>
+        </a>
+        <a class="btn btn-donate" data-donate-link data-cta-context="header" href="#">DONAR</a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="top" aria-label="Hero principal">
+        <video
+          id="heroVideo"
+          class="hero-video"
+          autoplay
+          loop
+          muted
+          playsinline
+          preload="metadata"
+          hidden
+        ></video>
+        <picture class="hero-media" id="heroPicture">
+          <source media="(max-width: 820px)" srcset="assets/images/hero-mobile.jpg" />
+          <img
+            id="heroImage"
+            src="assets/images/hero-desktop.jpg"
+            alt="Jaguar caminando en la selva"
+            width="2560"
+            height="1440"
+            fetchpriority="high"
+          />
+        </picture>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content" data-reveal>
+          <p class="eyebrow">Campana Nacional 2026</p>
+          <h1 id="heroHeadline">El jaguar representa a Mexico. Mexico debe protegerlo.</h1>
+          <p class="hero-subheadline" id="heroSubheadline">
+            En 2026, el mundo vera al jaguar como nuestro simbolo. Hagamos que tenga un hogar al cual volver.
+          </p>
+          <a class="btn btn-donate btn-hero" data-donate-link data-cta-context="hero" href="#">DONAR AHORA</a>
+          <p class="hero-microcopy" id="heroMicrocopy">100% deducible de impuestos · Cualquier monto ayuda</p>
+        </div>
+
+        <a class="scroll-cue" href="#problema" aria-label="Ir a la siguiente seccion">
+          <span>Desliza</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="section section-problem" id="problema">
+        <div class="container">
+          <h2 data-reveal>La paradoja: estamos perdiendo y ganando al mismo tiempo</h2>
+          <p class="section-intro" data-reveal>
+            Ya sabemos como recuperar poblaciones. Lo urgente es sostener el esfuerzo antes de que desaparezcan mas corredores de selva.
+          </p>
+
+          <div class="problem-grid">
+            <article class="problem-card danger" data-reveal>
+              <p class="status-label">EN PELIGRO</p>
+              <p class="problem-number"><span id="remainingJaguars">5,300</span> jaguares en Mexico</p>
+              <p id="problemText">Su habitat desaparece cada ano.</p>
+            </article>
+
+            <article class="problem-card hope" data-reveal>
+              <p class="status-label">FUNCIONA</p>
+              <p class="problem-number"><span id="populationIncrease">+30%</span> de poblacion en <span id="populationYears">14 anos</span></p>
+              <p id="solutionText">La ciencia mexicana esta ganando, pero necesita tu apoyo para terminar.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-impact" id="impacto">
+        <div class="container">
+          <h2 data-reveal>Impacto de tu donacion</h2>
+          <p class="section-intro" data-reveal>Elige un monto y transforma esa decision en proteccion real.</p>
+
+          <div class="impact-grid" id="impactGrid"></div>
+
+          <p class="custom-amount" data-reveal>
+            <a data-donate-link data-cta-context="custom_amount" href="#">?Otro monto? Elige tu cantidad →</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-social" id="prueba-social">
+        <div class="container">
+          <h2 data-reveal>Miles de mexicanos ya se unieron</h2>
+
+          <div class="social-counters" data-reveal>
+            <article>
+              <p class="counter" id="counterDonors" data-target="2347">0</p>
+              <p>mexicanos ya se unieron</p>
+            </article>
+            <article>
+              <p class="counter" id="counterRaised" data-target="847500">$0</p>
+              <p>recaudados de <span id="fundraisingGoal">$1,000,000</span></p>
+            </article>
+          </div>
+
+          <div class="fundraising-track" data-reveal>
+            <div class="fundraising-fill" id="fundraisingFill"></div>
+          </div>
+
+          <div class="ally-grid" id="allyGrid" data-reveal aria-label="Aliados y medios"></div>
+
+          <article class="testimonial-card" data-reveal>
+            <p class="testimonial-quote" id="testimonialQuote">
+              "Mi hijo de 8 anos dono su domingo. El jaguar ahora es su animal favorito."
+            </p>
+            <p class="testimonial-author" id="testimonialAuthor">Maria G., CDMX</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-transparency" id="transparencia">
+        <div class="container">
+          <h2 data-reveal>Cada peso tiene destino</h2>
+          <div class="budget-chart" id="budgetChart"></div>
+
+          <p class="report-note" data-reveal>
+            Publicamos reportes de impacto trimestrales.
+            <a id="reportLink" href="legal/reporte.html" rel="noopener">Ver ultimo reporte</a>
+          </p>
+
+          <ul class="trust-seals" id="trustSeals" data-reveal></ul>
+        </div>
+      </section>
+
+      <section class="section section-final-cta" id="donar-final">
+        <div class="container final-cta-wrap" data-reveal>
+          <h2 id="finalHeadline">El mundial es en 4 meses. El jaguar no puede esperar.</h2>
+          <a class="btn btn-donate btn-final" data-donate-link data-cta-context="final" href="#">DONAR AHORA</a>
+          <div class="alt-actions">
+            <button class="btn btn-alt" id="shareButton" type="button">Comparte en redes</button>
+            <button class="btn btn-alt" id="updatesButton" type="button">Recibe updates</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <img id="footerLogo" src="assets/images/logo-oro.png" alt="Logo ANCJ" width="40" height="40" />
+          <p id="orgNameFooter">Asociacion Nacional para la Conservacion del Jaguar</p>
+        </div>
+
+        <p>
+          Contacto: <a id="contactEmail" href="mailto:contacto@salvandoaljaguarmx.org">contacto@salvandoaljaguarmx.org</a>
+        </p>
+
+        <div class="footer-links">
+          <a id="privacyLink" href="legal/privacidad.html">Aviso de privacidad</a>
+          <a id="termsLink" href="legal/terminos.html">Terminos</a>
+        </div>
+      </div>
+    </footer>
+
+    <noscript>
+      <p class="noscript-note">Activa JavaScript para cargar montos, prueba social y tracking de conversion.</p>
+    </noscript>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

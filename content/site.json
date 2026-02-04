@@ -1,0 +1,48 @@
+{
+  "organizationName": "Asociación Salvando al Jaguar",
+  "gofundmeUrl": "https://www.gofundme.com/f/placeholder-salvando-al-jaguar",
+  "hero": {
+    "title": "El jaguar no puede esperar.",
+    "subtitle": "Con tu donativo apoyas monitoreo en campo, protección de hábitat y trabajo directo con comunidades."
+  },
+  "stats": [
+    {
+      "value": "[###]",
+      "label": "Hectáreas protegidas"
+    },
+    {
+      "value": "[###]",
+      "label": "Jaguares monitoreados"
+    },
+    {
+      "value": "[###]",
+      "label": "Comunidades aliadas"
+    },
+    {
+      "value": "[###]",
+      "label": "Años de trabajo continuo"
+    }
+  ],
+  "pillars": [
+    {
+      "icon": "assets/icons/Rastreo.png",
+      "title": "Monitoreo y Rastreo",
+      "description": "Seguimiento en campo para identificar corredores, riesgos y decisiones de conservación."
+    },
+    {
+      "icon": "assets/icons/Arbol.png",
+      "title": "Protección de Hábitat",
+      "description": "Acciones concretas para conservar zonas críticas de selva y biodiversidad."
+    },
+    {
+      "icon": "assets/icons/Cultural.png",
+      "title": "Educación y Comunidad",
+      "description": "Fortalecimiento de alianzas comunitarias para una conservación sostenible."
+    }
+  ],
+  "trust": {
+    "quote": "Cada donación sostiene trabajo de conservación verificable, con trazabilidad en cada etapa.",
+    "author": "Equipo Salvando al Jaguar",
+    "role": "Coordinación de Conservación"
+  }
+}
