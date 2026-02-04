@@ -1,6 +1,6 @@
-# Landing Page - Salvando al Jaguar
+# Landing Page - Mexico Salvando al Jaguar
 
-Landing de donación en HTML/CSS/JS, optimizada para dirigir a GoFundMe.
+Landing de donaciones en HTML/CSS/JS con objetivo unico: llevar al visitante a donar en GoFundMe.
 
 ## Ejecutar localmente
 
@@ -8,22 +8,35 @@ Landing de donación en HTML/CSS/JS, optimizada para dirigir a GoFundMe.
 python3 -m http.server 8080
 ```
 
-Luego abre: `http://localhost:8080`
+Abrir: `http://localhost:8080`
 
-## Editar contenido sin tocar HTML
+## Configuracion de contenido
 
-Actualiza `content/site.json`:
+Todo el contenido editable esta en `content/site.json`.
+
+Campos clave:
 - `gofundmeUrl`: URL final de GoFundMe
-- `hero.title` / `hero.subtitle`
-- `stats`: métricas reales verificables
-- `pillars`: iconos, títulos y descripción
-- `trust`: cita y vocería
+- `hero`: headline, subheadline y microcopy
+- `problem`: datos del reto y solucion
+- `impactTiers`: montos y resultado por monto
+- `socialProof`: contador, aliados y testimonios
+- `transparency`: distribucion de recursos y sellos
+- `contact`: email y links legales
 
-## Assets generados
+## Tracking implementado
 
-- `assets/images/hero-desktop.jpg` (2560x1440)
-- `assets/images/hero-mobile.jpg` (1080x1350)
-- `assets/images/logo-oro.png` (1024x1024)
-- `assets/images/trust-photo.jpg` (1600x1000)
-- `assets/images/og-image.jpg` (1200x630)
-- `assets/images/favicon-64.png` y `assets/images/favicon-32.png`
+Eventos enviados a `dataLayer`:
+- `page_view`
+- `scroll_depth` (25, 50, 75, 100)
+- `cta_click`
+- `donation_start`
+- `donation_complete` (via `?donation=complete`)
+- `share_click`
+- `updates_click`
+
+## Archivos legales temporales
+
+Se incluyen placeholders editables en:
+- `legal/privacidad.html`
+- `legal/terminos.html`
+- `legal/reporte.html`

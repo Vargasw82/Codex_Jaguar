@@ -1,48 +1,100 @@
 {
-  "organizationName": "Asociación Salvando al Jaguar",
+  "organizationName": "Mexico Salvando al Jaguar",
+  "organizationFullName": "Asociacion Nacional para la Conservacion del Jaguar",
   "gofundmeUrl": "https://www.gofundme.com/f/placeholder-salvando-al-jaguar",
-  "hero": {
-    "title": "El jaguar no puede esperar.",
-    "subtitle": "Con tu donativo apoyas monitoreo en campo, protección de hábitat y trabajo directo con comunidades."
+  "assets": {
+    "logo": "assets/images/logo-oro.png",
+    "heroDesktop": "assets/images/hero-desktop.jpg",
+    "heroMobile": "assets/images/hero-mobile.jpg",
+    "heroVideo": ""
   },
-  "stats": [
+  "hero": {
+    "headline": "El jaguar representa a Mexico. Mexico debe protegerlo.",
+    "subheadline": "En 2026, el mundo vera al jaguar como nuestro simbolo. Hagamos que tenga un hogar al cual volver.",
+    "microcopy": "100% deducible de impuestos | Cualquier monto ayuda"
+  },
+  "problem": {
+    "remainingJaguars": 5300,
+    "threatText": "Su habitat desaparece cada ano.",
+    "populationIncrease": "+30%",
+    "populationYears": "14 anos",
+    "solutionText": "La ciencia mexicana esta ganando, pero necesita tu apoyo para terminar."
+  },
+  "impactTiers": [
     {
-      "value": "[###]",
-      "label": "Hectáreas protegidas"
+      "amount": 100,
+      "detail": "1 dia de monitoreo satelital"
     },
     {
-      "value": "[###]",
-      "label": "Jaguares monitoreados"
+      "amount": 250,
+      "detail": "1 camara trampa instalada"
     },
     {
-      "value": "[###]",
-      "label": "Comunidades aliadas"
+      "amount": 500,
+      "detail": "1 semana de patrulla anti-caza"
     },
     {
-      "value": "[###]",
-      "label": "Años de trabajo continuo"
+      "amount": 1000,
+      "detail": "1 mes de proteccion de habitat"
     }
   ],
-  "pillars": [
-    {
-      "icon": "assets/icons/Rastreo.png",
-      "title": "Monitoreo y Rastreo",
-      "description": "Seguimiento en campo para identificar corredores, riesgos y decisiones de conservación."
-    },
-    {
-      "icon": "assets/icons/Arbol.png",
-      "title": "Protección de Hábitat",
-      "description": "Acciones concretas para conservar zonas críticas de selva y biodiversidad."
-    },
-    {
-      "icon": "assets/icons/Cultural.png",
-      "title": "Educación y Comunidad",
-      "description": "Fortalecimiento de alianzas comunitarias para una conservación sostenible."
-    }
-  ],
-  "trust": {
-    "quote": "Cada donación sostiene trabajo de conservación verificable, con trazabilidad en cada etapa.",
-    "author": "Equipo Salvando al Jaguar",
-    "role": "Coordinación de Conservación"
+  "socialProof": {
+    "donors": 2347,
+    "raised": 847500,
+    "goal": 1000000,
+    "allies": ["TV Azteca", "ADN40", "UNAM", "Aliados ESG"],
+    "testimonials": [
+      {
+        "quote": "Mi hijo de 8 anos dono su domingo. El jaguar ahora es su animal favorito.",
+        "author": "Maria G., CDMX"
+      },
+      {
+        "quote": "Como empresa, era obvio. El jaguar es Mexico.",
+        "author": "Director de RSE, Empresa Aliada"
+      },
+      {
+        "quote": "Finalmente algo concreto que podemos hacer.",
+        "author": "Carlos R., Monterrey"
+      }
+    ]
+  },
+  "transparency": {
+    "reportUrl": "legal/reporte.html",
+    "distribution": [
+      {
+        "label": "Proteccion de habitat",
+        "percent": 40,
+        "color": "#63d586"
+      },
+      {
+        "label": "Monitoreo y tecnologia",
+        "percent": 25,
+        "color": "#5cb8ff"
+      },
+      {
+        "label": "Comunidades rurales",
+        "percent": 20,
+        "color": "#ead35a"
+      },
+      {
+        "label": "Investigacion cientifica",
+        "percent": 15,
+        "color": "#f59a48"
+      }
+    ],
+    "seals": [
+      "Respaldado por la UNAM",
+      "100% deducible de impuestos",
+      "+20 anos de resultados comprobados"
+    ]
+  },
+  "finalCta": {
+    "headline": "El mundial es en 4 meses. El jaguar no puede esperar."
+  },
+  "contact": {
+    "email": "contacto@salvandoaljaguarmx.org",
+    "privacyUrl": "legal/privacidad.html",
+    "termsUrl": "legal/terminos.html",
+    "updatesUrl": "mailto:contacto@salvandoaljaguarmx.org?subject=Quiero%20recibir%20updates"
   }
 }
